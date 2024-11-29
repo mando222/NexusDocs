@@ -2,46 +2,56 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Smart Agent Hub for Web3 AI
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Overview
+Talus is a purpose-built blockchain platform designed to bridge AI and blockchain technology, creating a decentralized ecosystem where smart agents can live, interact, and transact. Our platform provides a high-throughput integrated L1 blockchain powered by the Move programming language and enhanced by a native AI Stack.
 
-## Getting Started
+## Core Components
 
-Get started by **creating a new site**.
+### Protocol Layer
+- **Protochain Node**: PoS blockchain powered by Cosmos SDK and CometBFT
+- **Sui Move**: Smart contract language optimized for security and performance
+- **IBC**: Inter-Blockchain Communication for seamless cross-chain operations
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### AI Stack
+- **SDK**: Comprehensive development tools and libraries
+- **Integration Components**: Seamless connection to off-chain resources
+- **Smart Agent Framework**: Tools for building autonomous agents
 
-### What you'll need
+### Mirror Objects
+Bridge between on-chain and off-chain resources:
+- **Model Objects**: AI model representation and management
+- **Data Objects**: Dataset ownership and access control
+- **Computation Objects**: Verifiable computation services
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Smart Agents
 
-## Generate a new site
+Smart agents on Talus are autonomous entities that can:
+- Operate independently using blockchain infrastructure
+- Communicate with other agents and humans
+- React to both on-chain and off-chain events
+- Take proactive actions based on goals and predictions
 
-Generate a new Docusaurus site using the **classic template**.
+## Key Features
 
-The classic template will automatically be added to your project after you run the command:
+- **Decentralized Architecture**: Trustless and transparent operations
+- **Verifiable AI**: Multiple verification approaches for different use cases
+- **Resource Management**: Efficient allocation of computational resources
+- **Economic Model**: TAI token powers the ecosystem's economy
+- **Cross-Chain Compatibility**: Seamless interaction with other blockchains
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Use Cases
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+- **DeFi**: Automated trading, portfolio management
+- **DAOs**: Governance automation, treasury management
+- **IoT/DePIN**: Device management, supply chain optimization
+- **Gaming/SocialFi**: Dynamic content, virtual economies
+- **AI Infrastructure**: Model deployment, data marketplace
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## Get Started
+- [Off Chain Components](/docs/offchaincomponents/overview.md)
+- [On Chain Components](/docs/onchaincomponents/overview.md)
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+---
+*Talus is committed to creating an open, decentralized future where AI and blockchain technologies work together to unlock new possibilities.*
